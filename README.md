@@ -126,6 +126,7 @@ The request body needs to be in JSON format and include the following properties
 -   `username` - String
 -   `email` - String
 -   `password` - String
+-   `password2` - String
 
 Example
 
@@ -133,7 +134,8 @@ Example
 {
    "username": "John",
    "email": "example@gmail.com"
-   "password": "pass@123"
+   "password": "pass@123",
+   "password2": "pass@123"
 }
 ```
 
