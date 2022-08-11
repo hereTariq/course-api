@@ -2,7 +2,7 @@
 
 This API allows you to fetch,create,update and delete course.
 
-The API is available at ``
+The API is available at `https://course-resource-api.herokuapp.com/`
 
 ## Endpoints
 
