@@ -12,11 +12,11 @@ app.use(cors());
 app.use('/auth', require('./routes/auth'));
 app.use('/courses', require('./routes/course'));
 
+const PORT = process.env.PORT || 4000;
 mongoose
     .connect(process.env.MONGO_URI)
     .then((result) => {
-        console.log('mongodb connected');
-        app.listen(4000, () => {
+        app.listen(PORT, () => {
             console.log(`server running on http://localhost:4000`);
         });
     })
